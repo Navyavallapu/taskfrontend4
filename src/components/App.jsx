@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://taskbackend1-o5uc.onrender.com";
 
 function App() {
   const [tasks, setTasks] = useState([]);
